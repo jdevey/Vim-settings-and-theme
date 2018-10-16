@@ -1,3 +1,6 @@
+" To get this vimrc working, go to C: and make an empty directory called
+" VimTempFiles
+
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
