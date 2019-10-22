@@ -69,18 +69,12 @@ set noundofile
 "Lets you click in command prompt
 set mouse=a
 
-"I mapped shift+space+f to escape so that going from insert to command mode would be easier
-"Same for one of my mouse buttons
-imap sdf <Esc>
-imap <X1Mouse> <Esc>
+"I mapped vv to escape so that going from insert to command mode would be easier
+imap vv <Esc>
 
 "Maps the 'a' key in command mode so that when you go from command to insert mode, the cursor
-"Goes one to the right, same for one of my mouse buttons
+"goes one to the right 
 noremap <a> <a><r>
-noremap <X2Mouse> <a><r>
-
-"Alias for a command I do a lot
-:command Xml %s/=\"/=\"99/g|%s/<jointedTo>/<jointedTo>99/g
 
 "Makes swap file go to the directory below
 set backup
