@@ -59,9 +59,6 @@ set backupskip=C:\VimTempFiles\*
 set directory=C:\VimTempFiles
 set writebackup
 
-" No clue how... but this block of code makes pairs auto-indent and braces come w/ a pair
-" Redacted, see github
-
 " When a bracket followed by a carriage return is pressed,
 " 1) Press { 
 " 2) Create a newline
