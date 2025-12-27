@@ -1,11 +1,9 @@
 Colorscheme:
-To get the color scheme installed for vim, add it to the vim80/colors
+To get the color scheme installed for vim, add it to the vim90/colors
 directory, then comment out the line in desert.vim that says:
-hi Normal	guifg=White guibg=black
+hi Normal	guifg=#ffffff guibg = #333333
+
+or something similar. This may differ depending on the os and the version of vim.
 
 You also need to go into the vimrc and make the colorscheme line say:
 colorscheme perun
-
-Plugins:
-Go to ~\.vim\pack\vendor\start\ then run git clone <url> for the plugin
-
